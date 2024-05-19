@@ -1,0 +1,12 @@
+C:\c#\WinFormsKubsu\ToysShop.DAL\bin\Debug\net8.0\ToysShop.DAL.deps.json
+C:\c#\WinFormsKubsu\ToysShop.DAL\bin\Debug\net8.0\ToysShop.DAL.dll
+C:\c#\WinFormsKubsu\ToysShop.DAL\bin\Debug\net8.0\ToysShop.DAL.pdb
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\ToysShop.DAL.csproj.AssemblyReference.cache
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\ToysShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\ToysShop.DAL.AssemblyInfoInputs.cache
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\ToysShop.DAL.AssemblyInfo.cs
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\ToysShop.DAL.csproj.CoreCompileInputs.cache
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\ToysShop.DAL.dll
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\refint\ToysShop.DAL.dll
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\ToysShop.DAL.pdb
+C:\c#\WinFormsKubsu\ToysShop.DAL\obj\Debug\net8.0\ref\ToysShop.DAL.dll
