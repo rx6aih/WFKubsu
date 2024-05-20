@@ -56,6 +56,7 @@ namespace ToysShop.InvoiceForms
 					if (comboBox3.SelectedIndex == 0)
 					{
 						InvoicesRepository ir = new InvoicesRepository(db);
+						PaymentRepository pr = new PaymentRepository(db);
 						ir.Create(new DAL.Entities.Invoices
 						{
 							InvoiceDate = DateTime.UtcNow,
@@ -64,7 +65,14 @@ namespace ToysShop.InvoiceForms
 							Payed = Convert.ToInt32(tbFirstPayment.Text),
 							ProductId = Convert.ToInt32(comboBox1.SelectedValue),
 							ClientId = Convert.ToInt32(comboBox2.SelectedValue),
-							TotalPrice = Convert.ToInt32(tbPrice.Text) * Convert.ToInt32(tbAmount.Text)
+							TotalPrice = Convert.ToInt32(tbPrice.Text) * Convert.ToInt32(tbAmount.Text),
+							Status = Convert.ToInt32(tbPrice.Text) * Convert.ToInt32(tbAmount.Text) < Convert.ToInt32(tbFirstPayment.Text) ? "Оплачено" : "Не оплачено"
+						});
+						pr.Create(new DAL.Entities.Payment
+						{
+							PaymentAmount = Convert.ToInt32(tbAmount.Text),
+							PaymentDate = DateTime.UtcNow,
+							ClientId = Convert.ToInt32(comboBox2.SelectedValue),
 						});
 						db.SaveChanges();
 						Close();
@@ -82,7 +90,8 @@ namespace ToysShop.InvoiceForms
 							Payed = Convert.ToInt32(tbFirstPayment.Text),
 							ProductId = Convert.ToInt32(comboBox1.SelectedValue),
 							ClientId = Convert.ToInt32(comboBox2.SelectedValue),
-							TotalPrice = Convert.ToInt32(tbPrice.Text) * Convert.ToInt32(tbAmount.Text)
+							TotalPrice = Convert.ToInt32(tbPrice.Text) * Convert.ToInt32(tbAmount.Text),
+							Status = Convert.ToInt32(tbPrice.Text) * Convert.ToInt32(tbAmount.Text) < Convert.ToInt32(tbFirstPayment.Text) ? "Не оплачено" : "Оплачено"
 						});
 						pr.Create(new DAL.Entities.Payment
 						{

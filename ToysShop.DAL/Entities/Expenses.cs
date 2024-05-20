@@ -14,6 +14,7 @@ namespace ToysShop.DAL.Entities
 		public int Price { get; set; }
 		public int Payed {  get; set; }
 		public int TotalPrice {  get; set; }
+		public string Status { get; set; }
 
 		public int ClientId { get; set; }
 		public Client Client { get; set; }

@@ -54,8 +54,10 @@ namespace ToysShop.InvoiceForms
 						{
 							string messg = "Полностью оплочено, лишнее:" + (invoice.Payed - invoice.TotalPrice).ToString();
 							invoice.Payed = invoice.TotalPrice;
+							invoice.Status = "Оплачено";
 							MessageBox.Show(messg);
 						}
+						else
 						pr.Create(new DAL.Entities.Payment
 						{
 							PaymentAmount = Convert.ToInt32(tbAmount.Text),
@@ -75,6 +77,21 @@ namespace ToysShop.InvoiceForms
 						Expenses expense = expenses.Where(x => x.Id == ((int)ExpenseId)).FirstOrDefault();
 						expense.Payed += Convert.ToInt32(tbAmount.Text);
 
+						if (expense.Payed >= expense.TotalPrice)
+						{
+							string messg = "Полностью оплочено, лишнее:" + (expense.Payed - expense.TotalPrice).ToString();
+							expense.Payed = expense.TotalPrice;
+							expense.Status = "Оплачено";
+							MessageBox.Show(messg);
+							pr.Create(new Payment
+							{
+								PaymentAmount = Convert.ToInt32(expense.TotalPrice) - Convert.ToInt32(tbAmount.Text),
+								PaymentDate = DateTime.UtcNow,
+								ClientId = (int)ExpClientId,
+								ExpensesId = (int)ExpenseId
+							});
+						}
+						else
 						pr.Create(new DAL.Entities.Payment
 						{
 							PaymentAmount = Convert.ToInt32(tbAmount.Text),
