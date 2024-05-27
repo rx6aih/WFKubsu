@@ -101,6 +101,9 @@ namespace ToysShop.InfoForms
 					ratio.Add(someRatio);
 
 					dataGridView1.DataSource = ratio;
+					dataGridView1.Columns[0].HeaderText = "Сумма приходных";
+					dataGridView1.Columns[1].HeaderText = "Сумма расходных";
+					dataGridView1.Columns[2].HeaderText = "Соотношение";
 				}
 				catch (Exception ex)
 				{

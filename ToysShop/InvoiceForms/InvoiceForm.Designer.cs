@@ -54,7 +54,7 @@
 			dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			dataGridView1.Location = new Point(12, 71);
 			dataGridView1.Name = "dataGridView1";
-			dataGridView1.Size = new Size(849, 150);
+			dataGridView1.Size = new Size(949, 150);
 			dataGridView1.TabIndex = 2;
 			// 
 			// label1
@@ -82,12 +82,12 @@
 			dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			dataGridView2.Location = new Point(12, 256);
 			dataGridView2.Name = "dataGridView2";
-			dataGridView2.Size = new Size(849, 150);
+			dataGridView2.Size = new Size(949, 150);
 			dataGridView2.TabIndex = 4;
 			// 
 			// button2
 			// 
-			button2.Location = new Point(786, 227);
+			button2.Location = new Point(886, 227);
 			button2.Name = "button2";
 			button2.Size = new Size(75, 23);
 			button2.TabIndex = 6;
@@ -97,7 +97,7 @@
 			// 
 			// button3
 			// 
-			button3.Location = new Point(786, 412);
+			button3.Location = new Point(886, 412);
 			button3.Name = "button3";
 			button3.Size = new Size(75, 23);
 			button3.TabIndex = 7;
@@ -109,7 +109,7 @@
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(873, 450);
+			ClientSize = new Size(973, 450);
 			Controls.Add(button3);
 			Controls.Add(button2);
 			Controls.Add(label2);
@@ -119,6 +119,7 @@
 			Controls.Add(button1);
 			Name = "InvoiceForm";
 			Text = "InvoiceForm";
+			Load += InvoiceForm_Load;
 			((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
 			((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
 			ResumeLayout(false);

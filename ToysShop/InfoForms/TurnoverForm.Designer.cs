@@ -105,6 +105,7 @@
 			Controls.Add(dateTimePicker1);
 			Name = "TurnoverForm";
 			Text = "TurnoverForm";
+			Load += TurnoverForm_Load;
 			((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
 			ResumeLayout(false);
 			PerformLayout();

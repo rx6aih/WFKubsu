@@ -58,6 +58,9 @@ namespace ToysShop
 					ExpensesRepository er = new ExpensesRepository(db);
 					List<Expenses> expenses = er.GetAll().ToList();
 
+					ProductRepository pr = new ProductRepository(db);
+					ClientRepository cr = new ClientRepository(db);
+
 					OpenFileDialog ofd = new OpenFileDialog();
 					ofd.ShowDialog();
 					string filename = ofd.FileName;
@@ -78,8 +81,8 @@ namespace ToysShop
 					worksheet.Cells[1, 4].Value = "Цена";
 					worksheet.Cells[1, 5].Value = "Оплачено";
 					worksheet.Cells[1, 6].Value = "Полная цена";
-					worksheet.Cells[1, 7].Value = "Номер клиента";
-					worksheet.Cells[1, 8].Value = "Номер продукта";
+					worksheet.Cells[1, 7].Value = "Имя клиента";
+					worksheet.Cells[1, 8].Value = "Название продукта";
 
 					for (int i = 2; i < expenses.Count + 2; i++)
 					{
@@ -89,8 +92,8 @@ namespace ToysShop
 						worksheet.Cells[i, 4] = expenses[i - 2].Price;
 						worksheet.Cells[i, 5] = expenses[i - 2].Payed;
 						worksheet.Cells[i, 6] = expenses[i - 2].TotalPrice;
-						worksheet.Cells[i, 7] = expenses[i - 2].ClientId;
-						worksheet.Cells[i, 8] = expenses[i - 2].ProductId;
+						worksheet.Cells[i, 7] = cr.Get(expenses[i - 2].ClientId).Name;
+						worksheet.Cells[i, 8] = pr.Get(expenses[i - 2].ProductId).Name;
 						wb.Save();
 					}
 				}
@@ -112,6 +115,9 @@ namespace ToysShop
 					InvoicesRepository er = new InvoicesRepository(db);
 					List<Invoices> invoices = er.GetAll().ToList();
 
+					ProductRepository pr = new ProductRepository(db);
+					ClientRepository cr = new ClientRepository(db);
+
 					OpenFileDialog ofd = new OpenFileDialog();
 					ofd.ShowDialog();
 					string filename = ofd.FileName;
@@ -132,8 +138,8 @@ namespace ToysShop
 					worksheet.Cells[1, 4].Value = "Цена";
 					worksheet.Cells[1, 5].Value = "Оплачено";
 					worksheet.Cells[1, 6].Value = "Полная цена";
-					worksheet.Cells[1, 7].Value = "Номер клиента";
-					worksheet.Cells[1, 8].Value = "Номер продукта";
+					worksheet.Cells[1, 7].Value = "Имя клиента";
+					worksheet.Cells[1, 8].Value = "Название продукта";
 
 					for (int i = 2; i < invoices.Count + 2; i++)
 					{
@@ -143,8 +149,8 @@ namespace ToysShop
 						worksheet.Cells[i, 4] = invoices[i - 2].Price;
 						worksheet.Cells[i, 5] = invoices[i - 2].Payed;
 						worksheet.Cells[i, 6] = invoices[i - 2].TotalPrice;
-						worksheet.Cells[i, 7] = invoices[i - 2].ClientId;
-						worksheet.Cells[i, 8] = invoices[i - 2].ProductId;
+						worksheet.Cells[i, 7] = cr.Get(invoices[i-2].ClientId).Name;
+						worksheet.Cells[i, 8] = pr.Get(invoices[i-2].ProductId).Name;
 						wb.Save();
 					}
 				}

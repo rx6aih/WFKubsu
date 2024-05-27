@@ -28,23 +28,23 @@ namespace ToysShop.InfoForms
 					PaymentRepository pr = new PaymentRepository(db);
 
 					List<Payment> payments = pr.GetAll().ToList();
-					
-					List<ClientTurnover> turnovers = new List<ClientTurnover>();
-					
 
-					foreach(Payment payment in payments)
+					List<ClientTurnover> turnovers = new List<ClientTurnover>();
+
+
+					foreach (Payment payment in payments)
 					{
-						if(turnovers.Find(x=>x.ClientId == payment.ClientId) == null)
+						if (turnovers.Find(x => x.ClientId == payment.ClientId) == null)
 						{
-							turnovers.Add(new ClientTurnover { ClientId = payment.ClientId, StartAmount = payment.PaymentAmount, EndAmount = payment.PaymentAmount } );
+							turnovers.Add(new ClientTurnover { ClientId = payment.ClientId, StartAmount = payment.PaymentAmount, EndAmount = payment.PaymentAmount });
 						}
 						else
 						{
-							turnovers.Find(x=>x.ClientId == payment.ClientId).EndAmount += payment.PaymentAmount;
+							turnovers.Find(x => x.ClientId == payment.ClientId).EndAmount += payment.PaymentAmount;
 						}
 					}
-					
-					foreach(ClientTurnover turnover in  turnovers)
+
+					foreach (ClientTurnover turnover in turnovers)
 					{
 						if (turnover.StartAmount < turnover.EndAmount)
 							turnover.Direction = "Up";
@@ -92,12 +92,18 @@ namespace ToysShop.InfoForms
 							turnover.Direction = "Down";
 					}
 					dataGridView1.DataSource = turnovers;
+
 				}
 				catch (Exception ex)
 				{
 					MessageBox.Show(ex.Message);
 					throw;
 				}
+		}
+
+		private void TurnoverForm_Load(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
