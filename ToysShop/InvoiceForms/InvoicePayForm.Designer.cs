@@ -32,6 +32,7 @@
 			label1 = new Label();
 			btnNo = new Button();
 			btnYes = new Button();
+			label2 = new Label();
 			SuspendLayout();
 			// 
 			// tbAmount
@@ -54,7 +55,7 @@
 			// 
 			// btnNo
 			// 
-			btnNo.Location = new Point(146, 81);
+			btnNo.Location = new Point(146, 107);
 			btnNo.Name = "btnNo";
 			btnNo.Size = new Size(75, 23);
 			btnNo.TabIndex = 21;
@@ -64,7 +65,7 @@
 			// 
 			// btnYes
 			// 
-			btnYes.Location = new Point(19, 81);
+			btnYes.Location = new Point(19, 107);
 			btnYes.Name = "btnYes";
 			btnYes.Size = new Size(75, 23);
 			btnYes.TabIndex = 20;
@@ -72,17 +73,29 @@
 			btnYes.UseVisualStyleBackColor = true;
 			btnYes.Click += btnYes_Click;
 			// 
+			// label2
+			// 
+			label2.AutoSize = true;
+			label2.Font = new Font("Segoe UI", 12F);
+			label2.Location = new Point(19, 64);
+			label2.Name = "label2";
+			label2.Size = new Size(79, 21);
+			label2.TabIndex = 22;
+			label2.Text = "Осталось:";
+			// 
 			// InvoicePayForm
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			ClientSize = new Size(233, 121);
+			ClientSize = new Size(233, 142);
+			Controls.Add(label2);
 			Controls.Add(btnNo);
 			Controls.Add(btnYes);
 			Controls.Add(tbAmount);
 			Controls.Add(label1);
 			Name = "InvoicePayForm";
 			Text = "InvoicePayForm";
+			Load += InvoicePayForm_Load;
 			ResumeLayout(false);
 			PerformLayout();
 		}
@@ -93,5 +106,6 @@
 		private Label label1;
 		private Button btnNo;
 		private Button btnYes;
+		private Label label2;
 	}
 }

@@ -92,7 +92,10 @@ namespace ToysShop.InfoForms
 							turnover.Direction = "Down";
 					}
 					dataGridView1.DataSource = turnovers;
-
+					dataGridView1.Columns[0].HeaderText = "Номер клиента";
+					dataGridView1.Columns[1].HeaderText = "Начальное количество";
+					dataGridView1.Columns[2].HeaderText = "Количество в конце";
+					dataGridView1.Columns[3].HeaderText = "Направление";
 				}
 				catch (Exception ex)
 				{
@@ -103,7 +106,10 @@ namespace ToysShop.InfoForms
 
 		private void TurnoverForm_Load(object sender, EventArgs e)
 		{
-
+			dataGridView1.Columns[0].HeaderText = "Номер клиента";
+			dataGridView1.Columns[1].HeaderText = "Начальное количество";
+			dataGridView1.Columns[2].HeaderText = "Количество в конце";
+			dataGridView1.Columns[3].HeaderText = "Направление";
 		}
 	}
 }

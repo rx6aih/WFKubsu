@@ -58,13 +58,13 @@ namespace ToysShop.InvoiceForms
 							MessageBox.Show(messg);
 						}
 						else
-						pr.Create(new DAL.Entities.Payment
-						{
-							PaymentAmount = Convert.ToInt32(tbAmount.Text),
-							PaymentDate = DateTime.UtcNow,
-							ClientId = (int)InvClientId,
-							InvoicesId = (int)InvoiceId,
-						});
+							pr.Create(new DAL.Entities.Payment
+							{
+								PaymentAmount = Convert.ToInt32(tbAmount.Text),
+								PaymentDate = DateTime.UtcNow,
+								ClientId = (int)InvClientId,
+								InvoicesId = (int)InvoiceId,
+							});
 						db.SaveChanges();
 						Close();
 					}
@@ -92,13 +92,13 @@ namespace ToysShop.InvoiceForms
 							});
 						}
 						else
-						pr.Create(new DAL.Entities.Payment
-						{
-							PaymentAmount = Convert.ToInt32(tbAmount.Text),
-							PaymentDate = DateTime.UtcNow,
-							ClientId = (int)ExpClientId,
-							ExpensesId = (int)ExpenseId,
-						});
+							pr.Create(new DAL.Entities.Payment
+							{
+								PaymentAmount = Convert.ToInt32(tbAmount.Text),
+								PaymentDate = DateTime.UtcNow,
+								ClientId = (int)ExpClientId,
+								ExpensesId = (int)ExpenseId,
+							});
 						db.SaveChanges();
 						Close();
 					}
@@ -113,6 +113,35 @@ namespace ToysShop.InvoiceForms
 		private void btnNo_Click(object sender, EventArgs e)
 		{
 			Close();
+		}
+
+		private void InvoicePayForm_Load(object sender, EventArgs e)
+		{
+			if (Type == 0)
+			{
+				using (var db = new Context())
+				{
+					InvoicesRepository ir = new InvoicesRepository(db);
+					List<Invoices> invoices = ir.GetAll().ToList();
+
+					Invoices invoice = invoices.Where(x => x.Id == ((int)InvoiceId)).FirstOrDefault();
+					string left = (invoice.TotalPrice - invoice.Payed).ToString();
+					label2.Text += " " + left;
+				}
+			}
+			else
+			{
+				using (var db = new Context())
+				{
+					ExpensesRepository er = new ExpensesRepository(db);
+					List<Expenses> expenses = er.GetAll().ToList();
+
+					Expenses expense = expenses.Where(x => x.Id == ((int)ExpenseId)).FirstOrDefault();
+
+					string left = (expense.TotalPrice - expense.Payed).ToString();
+					label2.Text += " " + left;
+				}
+			}
 		}
 	}
 }
