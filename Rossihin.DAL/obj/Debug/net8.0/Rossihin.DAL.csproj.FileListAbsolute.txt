@@ -1,0 +1,12 @@
+C:\c#\WinFormsKubsu\Rossihin.DAL\bin\Debug\net8.0\Rossihin.DAL.deps.json
+C:\c#\WinFormsKubsu\Rossihin.DAL\bin\Debug\net8.0\Rossihin.DAL.dll
+C:\c#\WinFormsKubsu\Rossihin.DAL\bin\Debug\net8.0\Rossihin.DAL.pdb
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\Rossihin.DAL.csproj.AssemblyReference.cache
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\Rossihin.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\Rossihin.DAL.AssemblyInfoInputs.cache
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\Rossihin.DAL.AssemblyInfo.cs
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\Rossihin.DAL.csproj.CoreCompileInputs.cache
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\Rossihin.DAL.dll
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\refint\Rossihin.DAL.dll
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\Rossihin.DAL.pdb
+C:\c#\WinFormsKubsu\Rossihin.DAL\obj\Debug\net8.0\ref\Rossihin.DAL.dll
