@@ -114,7 +114,7 @@ namespace Rossihin.ContractForms
                             List<Contract> contracts = cr.GetAll().ToList();
                             foreach (Contract c in contracts)
                             {
-                                if (c.ShipDate <= DateTime.Today&&c.ShipDate !=DateTime.MinValue)
+                                if (c.ShipDate.Day <= DateTime.Today.Day&&c.ShipDate !=DateTime.MinValue)
                                     c.ShipStatus = true;
                             }
                             db.SaveChanges();

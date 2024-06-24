@@ -45,3 +45,4 @@ C:\c#\WinFormsKubsu\Rossihin\obj\Debug\net8.0-windows\Interop.Microsoft.Office.I
 C:\c#\WinFormsKubsu\Rossihin\obj\Debug\net8.0-windows\Rossihin.csproj.ResolveComReference.cache
 C:\c#\WinFormsKubsu\Rossihin\obj\Debug\net8.0-windows\Rossihin.ReportForms.ReportOneForm.resources
 C:\c#\WinFormsKubsu\Rossihin\obj\Debug\net8.0-windows\Rossihin.ReportForms.ReportTwoForm.resources
+C:\c#\WinFormsKubsu\Rossihin\obj\Debug\net8.0-windows\Rossihin.ProductForms.ProductFor.resources
