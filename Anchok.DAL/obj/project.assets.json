@@ -721,11 +721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\WinFormsKubsu\\Anchok.DAL\\Anchok.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\пк\\Documents\\GitHub\\Anchok.DAL\\Anchok.DAL.csproj",
       "projectName": "Anchok.DAL",
-      "projectPath": "C:\\c#\\WinFormsKubsu\\Anchok.DAL\\Anchok.DAL.csproj",
+      "projectPath": "C:\\Users\\пк\\Documents\\GitHub\\Anchok.DAL\\Anchok.DAL.csproj",
       "packagesPath": "C:\\Users\\пк\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\WinFormsKubsu\\Anchok.DAL\\obj\\",
+      "outputPath": "C:\\Users\\пк\\Documents\\GitHub\\Anchok.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\пк\\AppData\\Roaming\\NuGet\\NuGet.Config",

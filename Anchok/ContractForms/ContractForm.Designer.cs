@@ -36,10 +36,14 @@
             отгрузитьПолностьюToolStripMenuItem = new ToolStripMenuItem();
             отгрузитьЧастичноToolStripMenuItem = new ToolStripMenuItem();
             экспортToolStripMenuItem = new ToolStripMenuItem();
-            dataGridView2 = new DataGridView();
-            button1 = new Button();
             списокToolStripMenuItem = new ToolStripMenuItem();
             импортToolStripMenuItem = new ToolStripMenuItem();
+            dataGridView2 = new DataGridView();
+            button1 = new Button();
+            dateTimePicker1 = new DateTimePicker();
+            dateTimePicker2 = new DateTimePicker();
+            label1 = new Label();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
@@ -104,6 +108,20 @@
             экспортToolStripMenuItem.Size = new Size(81, 20);
             экспортToolStripMenuItem.Text = "Накладные";
             // 
+            // списокToolStripMenuItem
+            // 
+            списокToolStripMenuItem.Name = "списокToolStripMenuItem";
+            списокToolStripMenuItem.Size = new Size(119, 22);
+            списокToolStripMenuItem.Text = "Список";
+            списокToolStripMenuItem.Click += списокToolStripMenuItem_Click;
+            // 
+            // импортToolStripMenuItem
+            // 
+            импортToolStripMenuItem.Name = "импортToolStripMenuItem";
+            импортToolStripMenuItem.Size = new Size(119, 22);
+            импортToolStripMenuItem.Text = "Экспорт";
+            импортToolStripMenuItem.Click += экспортToolStripMenuItem_Click;
+            // 
             // dataGridView2
             // 
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -122,25 +140,48 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // списокToolStripMenuItem
+            // dateTimePicker1
             // 
-            списокToolStripMenuItem.Name = "списокToolStripMenuItem";
-            списокToolStripMenuItem.Size = new Size(180, 22);
-            списокToolStripMenuItem.Text = "Список";
-            списокToolStripMenuItem.Click += списокToolStripMenuItem_Click;
+            dateTimePicker1.Location = new Point(219, 230);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.TabIndex = 10;
             // 
-            // импортToolStripMenuItem
+            // dateTimePicker2
             // 
-            импортToolStripMenuItem.Name = "импортToolStripMenuItem";
-            импортToolStripMenuItem.Size = new Size(180, 22);
-            импортToolStripMenuItem.Text = "Экспорт";
-            импортToolStripMenuItem.Click += экспортToolStripMenuItem_Click;
+            dateTimePicker2.Location = new Point(548, 232);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(200, 23);
+            dateTimePicker2.TabIndex = 11;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(160, 236);
+            label1.Name = "label1";
+            label1.Size = new Size(49, 15);
+            label1.TabIndex = 12;
+            label1.Text = "Начало";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(497, 236);
+            label2.Name = "label2";
+            label2.Size = new Size(41, 15);
+            label2.TabIndex = 13;
+            label2.Text = "Конец";
             // 
             // ContractForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(760, 438);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(dateTimePicker2);
+            Controls.Add(dateTimePicker1);
             Controls.Add(button1);
             Controls.Add(dataGridView2);
             Controls.Add(dataGridView1);
@@ -170,5 +211,9 @@
         private Button button1;
         private ToolStripMenuItem списокToolStripMenuItem;
         private ToolStripMenuItem импортToolStripMenuItem;
+        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dateTimePicker2;
+        private Label label1;
+        private Label label2;
     }
 }

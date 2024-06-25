@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Individualka", "Individualka.csproj", "{9D413184-0CA8-460D-BA27-B6BD4994B016}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Individualka.DAL", "..\Anchok.DAL\Individualka.DAL.csproj", "{C37EC2FC-535B-4AC7-A4BF-39A9933E6C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Individualka.DAL", "..\Individualka.DAL\Individualka.DAL.csproj", "{C37EC2FC-535B-4AC7-A4BF-39A9933E6C8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

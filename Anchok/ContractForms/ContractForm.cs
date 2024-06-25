@@ -192,9 +192,9 @@ namespace Anchok.ContractForms
 
                     foreach (Contract contract in contracts)
                     {
-                        if (contract.Status == true)
+                        if (contract.Status == true && contract.Date.Day >= dateTimePicker1.Value.Day && contract.Date.Day <= dateTimePicker2.Value.Day)
                             num1 += contract.Amount;
-                        if (sr.GetAll().Where(x => x.ContractId == contract.Id).FirstOrDefault() != null)
+                        if (sr.GetAll().Where(x => x.ContractId == contract.Id).FirstOrDefault() != null && contract.Date.Day >= dateTimePicker1.Value.Day && contract.Date.Day <= dateTimePicker2.Value.Day)
                             num2 += sr.GetAll().Where(x => x.ContractId == contract.Id).FirstOrDefault().CurrentAmount;
 
                     }
@@ -216,6 +216,11 @@ namespace Anchok.ContractForms
         {
             Invoices form = new Invoices();
             form.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

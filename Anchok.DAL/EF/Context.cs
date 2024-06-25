@@ -17,7 +17,7 @@ namespace Anchok.DAL.EF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(@"host=localhost;port=5432;database=Anchok;UserId=postgres;password=1957");
+            optionsBuilder.UseNpgsql(@"host=localhost;port=5432;database=Anchokk;UserId=postgres;password=1957");
         }
         public DbSet<Client> Clients { get; set; }
         public DbSet<Contract> Contracts { get; set; }

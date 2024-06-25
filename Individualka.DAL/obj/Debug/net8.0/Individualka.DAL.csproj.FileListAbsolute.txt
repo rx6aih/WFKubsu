@@ -1,0 +1,13 @@
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\bin\Debug\net8.0\Individualka.DAL.deps.json
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\bin\Debug\net8.0\Individualka.DAL.dll
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\bin\Debug\net8.0\Individualka.DAL.pdb
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\Individualka.DAL.csproj.AssemblyReference.cache
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\Individualka.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\Individualka.DAL.AssemblyInfoInputs.cache
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\Individualka.DAL.AssemblyInfo.cs
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\Individualka.DAL.csproj.CoreCompileInputs.cache
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\Individualka.DAL.sourcelink.json
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\Individualka.DAL.dll
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\refint\Individualka.DAL.dll
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\Individualka.DAL.pdb
+C:\Users\пк\Documents\GitHub\WFKubsu\Individualka.DAL\obj\Debug\net8.0\ref\Individualka.DAL.dll

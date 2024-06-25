@@ -25,7 +25,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Anchok.DAL\Individualka.DAL.csproj" />
+    <ProjectReference Include="..\Individualka.DAL\Individualka.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Individualka.DAL">
+      <HintPath>..\Individualka.DAL\bin\Debug\net8.0\Anchok.DAL.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

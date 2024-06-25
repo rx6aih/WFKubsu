@@ -792,8 +792,8 @@
     },
     "Individualka.DAL/1.0.0": {
       "type": "project",
-      "path": "../Anchok.DAL/Individualka.DAL.csproj",
-      "msbuildProject": "../Anchok.DAL/Individualka.DAL.csproj"
+      "path": "../Individualka.DAL/Individualka.DAL.csproj",
+      "msbuildProject": "../Individualka.DAL/Individualka.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -808,11 +808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\WinFormsKubsu\\Individualka\\Individualka.csproj",
+      "projectUniqueName": "C:\\Users\\пк\\Documents\\GitHub\\WFKubsu\\Individualka\\Individualka.csproj",
       "projectName": "Individualka",
-      "projectPath": "C:\\c#\\WinFormsKubsu\\Individualka\\Individualka.csproj",
+      "projectPath": "C:\\Users\\пк\\Documents\\GitHub\\WFKubsu\\Individualka\\Individualka.csproj",
       "packagesPath": "C:\\Users\\пк\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\WinFormsKubsu\\Individualka\\obj\\",
+      "outputPath": "C:\\Users\\пк\\Documents\\GitHub\\WFKubsu\\Individualka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\пк\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -829,8 +829,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\c#\\WinFormsKubsu\\Anchok.DAL\\Individualka.DAL.csproj": {
-              "projectPath": "C:\\c#\\WinFormsKubsu\\Anchok.DAL\\Individualka.DAL.csproj"
+            "C:\\Users\\пк\\Documents\\GitHub\\WFKubsu\\Individualka.DAL\\Individualka.DAL.csproj": {
+              "projectPath": "C:\\Users\\пк\\Documents\\GitHub\\WFKubsu\\Individualka.DAL\\Individualka.DAL.csproj"
             }
           }
         }

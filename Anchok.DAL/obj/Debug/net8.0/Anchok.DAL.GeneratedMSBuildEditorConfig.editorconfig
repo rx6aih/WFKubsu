@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Anchok.DAL
-build_property.ProjectDir = C:\c#\WinFormsKubsu\Anchok.DAL\
+build_property.ProjectDir = C:\Users\пк\Documents\GitHub\Anchok.DAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

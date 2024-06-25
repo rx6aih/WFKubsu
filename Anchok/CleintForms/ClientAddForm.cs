@@ -37,6 +37,7 @@ namespace Anchok.CleintForms
                 }
                 catch (Exception ex)
                 {
+                    throw;
                     MessageBox.Show(ex.Message);
                 }
             }

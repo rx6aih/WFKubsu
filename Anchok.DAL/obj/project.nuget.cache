@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xj7Yq4faDgEdcedk3GQEEeEKzIJJwXTi7zdcJ0/rfXD7g+OKjvXWBLc0AnjwRlVrkie0erBbABIQrzT071ASCg==",
+  "dgSpecHash": "N6XqmlBBOZWf8Atmky6PjmBvTdQSPdYlaJsIMjcPda/jn51voDi3X0DLtgySJdaa9G/JFn3jhnrjFNWuuraTgw==",
   "success": true,
-  "projectFilePath": "C:\\c#\\WinFormsKubsu\\Anchok.DAL\\Anchok.DAL.csproj",
+  "projectFilePath": "C:\\Users\\пк\\Documents\\GitHub\\Anchok.DAL\\Anchok.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\пк\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\пк\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",

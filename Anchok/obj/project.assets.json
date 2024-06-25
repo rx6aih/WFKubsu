@@ -808,11 +808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\WinFormsKubsu\\Anchok\\Anchok.csproj",
+      "projectUniqueName": "C:\\Users\\пк\\Documents\\GitHub\\Anchok\\Anchok.csproj",
       "projectName": "Anchok",
-      "projectPath": "C:\\c#\\WinFormsKubsu\\Anchok\\Anchok.csproj",
+      "projectPath": "C:\\Users\\пк\\Documents\\GitHub\\Anchok\\Anchok.csproj",
       "packagesPath": "C:\\Users\\пк\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\WinFormsKubsu\\Anchok\\obj\\",
+      "outputPath": "C:\\Users\\пк\\Documents\\GitHub\\Anchok\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\пк\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -829,8 +829,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\c#\\WinFormsKubsu\\Anchok.DAL\\Anchok.DAL.csproj": {
-              "projectPath": "C:\\c#\\WinFormsKubsu\\Anchok.DAL\\Anchok.DAL.csproj"
+            "C:\\Users\\пк\\Documents\\GitHub\\Anchok.DAL\\Anchok.DAL.csproj": {
+              "projectPath": "C:\\Users\\пк\\Documents\\GitHub\\Anchok.DAL\\Anchok.DAL.csproj"
             }
           }
         }
