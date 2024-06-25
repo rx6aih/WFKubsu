@@ -1,0 +1,97 @@
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Individualka.exe
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Individualka.deps.json
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Individualka.runtimeconfig.json
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Individualka.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Individualka.pdb
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Npgsql.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.csproj.AssemblyReference.cache
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.csproj.ResolveComReference.cache
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.CleintForms.ClientAddForm.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.CleintForms.ClientForm.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.ContractForms.ContractAddForm.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.ContractForms.ContractForm.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.ContractForms.ContractShipForm.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.ContractForms.Invoices.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.Diagram.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.DiagramPick.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.Form1.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.Product.ProductAddForm.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.Product.ProductForm.resources
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.csproj.GenerateResource.cache
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.AssemblyInfoInputs.cache
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.AssemblyInfo.cs
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.csproj.CoreCompileInputs.cache
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.csproj.CopyComplete
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.dll
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\refint\Individualka.dll
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.pdb
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\Individualka.genruntimeconfig.cache
+C:\c#\WinFormsKubsu\Anchok — копия\obj\Debug\net8.0-windows\ref\Individualka.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Individualka.DAL.dll
+C:\c#\WinFormsKubsu\Anchok — копия\bin\Debug\net8.0-windows\Individualka.DAL.pdb
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Individualka.exe
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Individualka.deps.json
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Individualka.runtimeconfig.json
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Individualka.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Individualka.pdb
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Npgsql.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Individualka.DAL.dll
+C:\c#\WinFormsKubsu\Individualka\bin\Debug\net8.0-windows\Individualka.DAL.pdb
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.csproj.AssemblyReference.cache
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.csproj.ResolveComReference.cache
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.CleintForms.ClientAddForm.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.CleintForms.ClientForm.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.ContractForms.ContractAddForm.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.ContractForms.ContractForm.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.ContractForms.ContractShipForm.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.ContractForms.Invoices.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.Diagram.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.DiagramPick.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.Form1.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.Product.ProductAddForm.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.Product.ProductForm.resources
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.csproj.GenerateResource.cache
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.AssemblyInfoInputs.cache
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.AssemblyInfo.cs
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.csproj.CoreCompileInputs.cache
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.csproj.CopyComplete
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.dll
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\refint\Individualka.dll
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.pdb
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.genruntimeconfig.cache
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\ref\Individualka.dll
+C:\c#\WinFormsKubsu\Individualka\obj\Debug\net8.0-windows\Individualka.ContractForms.ContractExportForm.resources

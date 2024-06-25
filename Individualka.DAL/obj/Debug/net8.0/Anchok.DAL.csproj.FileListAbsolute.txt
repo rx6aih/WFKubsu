@@ -1,0 +1,12 @@
+C:\c#\WinFormsKubsu\Anchok.DAL\bin\Debug\net8.0\Anchok.DAL.deps.json
+C:\c#\WinFormsKubsu\Anchok.DAL\bin\Debug\net8.0\Anchok.DAL.dll
+C:\c#\WinFormsKubsu\Anchok.DAL\bin\Debug\net8.0\Anchok.DAL.pdb
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\Anchok.DAL.csproj.AssemblyReference.cache
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\Anchok.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\Anchok.DAL.AssemblyInfoInputs.cache
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\Anchok.DAL.AssemblyInfo.cs
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\Anchok.DAL.csproj.CoreCompileInputs.cache
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\Anchok.DAL.dll
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\refint\Anchok.DAL.dll
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\Anchok.DAL.pdb
+C:\c#\WinFormsKubsu\Anchok.DAL\obj\Debug\net8.0\ref\Anchok.DAL.dll
